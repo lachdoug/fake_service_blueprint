@@ -16,11 +16,13 @@
         "patch": 0
       }
     },
-    "timestamp": "2017-11-30T14:54:45+11:00"
+    "timestamp": "2017-11-30T14:57:31+11:00"
   },
   "software": {
     "base": {
       "name": "tester",
+      "publisher_namespace": "EnginesSystem",
+      "type_path": "fakeone",
       "deployment_type": "web",
       "http_protocol": "https_and_http"
     },
