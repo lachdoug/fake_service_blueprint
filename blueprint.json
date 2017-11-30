@@ -15,8 +15,43 @@
         "level": "alpha",
         "patch": 0
       }
-    }
+    },
+    "timestamp": "2017-11-30T14:54:45+11:00"
   },
   "software": {
+    "base": {
+      "name": "tester",
+      "deployment_type": "web",
+      "http_protocol": "https_and_http"
+    },
+    "capabilities": {
+      "allow": "default",
+      "selected": [
+        "SETPCAP",
+        "MKNOD",
+        "AUDIT_WRITE",
+        "CHOWN",
+        "NET_RAW",
+        "DAC_OVERRIDE",
+        "FOWNER",
+        "FSETID",
+        "KILL",
+        "SETGID",
+        "SETUID",
+        "NET_BIND_SERVICE",
+        "SYS_CHROOT",
+        "SETFCAP"
+      ]
+    },
+    "backup_scripts": {
+      "backup": {
+        "language": "json",
+        "content": "zxczxczxczxczxczxc"
+      },
+      "restore": {
+        "language": "javascript",
+        "content": "zxzxczxccvdfddfgdfgdfg"
+      }
+    }
   }
 }
